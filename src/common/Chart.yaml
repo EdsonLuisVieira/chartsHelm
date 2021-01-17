@@ -6,12 +6,6 @@ appVersion: 1.3.5
 description: A Library Helm Chart for grouping common logic between bitnami charts. This chart is not deployable by itself.
 icon: https://bitnami.com/downloads/logos/bitnami-mark.png
 keywords:
-  - common
-  - helper
-  - template
-  - function
-  - bitnami
-    name: Bitnami
 name: common
 type: library
 version: 1.3.5
