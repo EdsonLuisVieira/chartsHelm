@@ -9,5 +9,11 @@ keywords:
   - metrics-server
   - cluster
   - metrics
+dependencies:
+- name: common
+  repository: https://charts.bitnami.com/bitnami
+  tags:
+    - bitnami-common
+  version: 1.x.x
 name: metrics-server
 version: 5.3.3
