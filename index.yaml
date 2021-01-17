@@ -1,3 +1,180 @@
 apiVersion: v1
-entries: {}
-generated: "2021-01-17T14:24:30.724650968-03:00"
+entries:
+  aws-alb-ingress-controller:
+  - apiVersion: v1
+    appVersion: v1.1.8
+    created: "2021-01-17T14:50:03.103368351-03:00"
+    description: DEPRECATED A Helm chart for AWS ALB Ingress Controller
+    digest: 4f628467cb93c390d98bb7a12fb4cadba9a85b196c4b2b3794cecd3eda796045
+    home: https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    keywords:
+    - aws
+    - ingress
+    name: aws-alb-ingress-controller
+    sources:
+    - https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/aws-alb-ingress-controller-1.0.4.tgz
+    version: 1.0.4
+  cluster-autoscaler:
+  - apiVersion: v2
+    appVersion: 1.18.1
+    created: "2021-01-17T14:50:03.105230381-03:00"
+    description: Scales Kubernetes worker nodes within autoscaling groups.
+    digest: 012c239f8008b0a490247f4e76cedfba82af371f466a7a0dc6c0eaca21f90445
+    home: https://github.com/kubernetes/autoscaler
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    maintainers:
+    - email: e.bailey@sportradar.com
+      name: yurrriq
+    - email: mgoodness@gmail.com
+      name: mgoodness
+    - email: guyjtempleton@googlemail.com
+      name: gjtempleton
+    - email: scott.crooks@gmail.com
+      name: sc250024
+    name: cluster-autoscaler
+    sources:
+    - https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
+    type: application
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/cluster-autoscaler-9.3.1.tgz
+    version: 9.3.1
+  datadog:
+  - apiVersion: v1
+    appVersion: "7"
+    created: "2021-01-17T14:50:03.110955649-03:00"
+    description: Datadog Agent
+    digest: 0290f68d0fa14bb2e27416172c14f7d553555d954ce1831fb868deeae7c0fc91
+    keywords:
+    - monitoring
+    - alerting
+    - metric
+    name: datadog
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/datadog-2.6.8.tgz
+    version: 2.6.8
+  external-dns:
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: 0.7.5
+    created: "2021-01-17T14:50:03.114289685-03:00"
+    description: ExternalDNS is a Kubernetes addon that configures public DNS servers
+      with information about exposed Kubernetes services to make them discoverable.
+    digest: 8ba96a2d72c74b45e0b955b8061632de521a9de800215956b935ffe8df4dfe49
+    keywords:
+    - external-dns
+    - network
+    - dns
+    name: external-dns
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/external-dns-4.5.1.tgz
+    version: 4.5.1
+  fluentd-cloudwatch:
+  - apiVersion: v1
+    appVersion: v1.7.3-debian-cloudwatch-1.0
+    created: "2021-01-17T14:50:03.120906545-03:00"
+    description: DEPRECATED A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: f7c3ebd3e9d8756da81063696d4245547a6025af1aab5a9e7f0664eb66dab170
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/fluentd-cloudwatch-0.13.2.tgz
+    version: 0.13.2
+  kube-state-metrics:
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 1.9.7
+    created: "2021-01-17T14:50:03.123208652-03:00"
+    description: kube-state-metrics is a simple service that listens to the Kubernetes
+      API server and generates metrics about the state of the objects.
+    digest: 2f0b8611ea2fd99301ff5b475deb180a6641b0bb59bff22b8c665d2585ed0503
+    keywords:
+    - prometheus
+    - kube-state-metrics
+    - monitoring
+    name: kube-state-metrics
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/kube-state-metrics-1.1.4.tgz
+    version: 1.1.4
+  kube2iam:
+  - apiVersion: v1
+    appVersion: 0.10.9
+    created: "2021-01-17T14:50:03.125600494-03:00"
+    description: Provide IAM credentials to pods based on annotations.
+    digest: 63694bfa9a537b4f498a8680891255d728239ce76fe19f3ee11baa835769066f
+    home: https://github.com/jtblin/kube2iam
+    keywords:
+    - kube2iam
+    - aws
+    - iam
+    - security
+    maintainers:
+    - email: myself@mariusv.com
+      name: mariusv
+    name: kube2iam
+    sources:
+    - https://github.com/jtblin/kube2iam
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/kube2iam-2.5.2.tgz
+    version: 2.5.2
+  kubernetes-dashboard:
+  - apiVersion: v1
+    appVersion: 2.0.5
+    created: "2021-01-17T14:50:03.126970567-03:00"
+    description: General-purpose web UI for Kubernetes clusters
+    digest: 30d85d5323c7f67a7620277eb70eb3be7bb58213f6f99ce26dcf8dcc220cce93
+    kubeVersion: '>=1.14.0-0'
+    name: kubernetes-dashboard
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/kubernetes-dashboard-3.0.1.tgz
+    version: 3.0.1
+  kubernetes-external-secrets:
+  - apiVersion: v1
+    appVersion: 6.1.0
+    created: "2021-01-17T14:50:03.127690936-03:00"
+    description: Kubernetes External Secrets CustomResourceDefinition
+    digest: 25b456c008f4b33576a860a684781747b1217b94c219a4779ad098bdaf86488a
+    home: https://github.com/external-secrets/kubernetes-external-secrets
+    keywords:
+    - kubernetes-external-secrets
+    - secrets
+    maintainers:
+    - name: external-secrets
+      url: https://github.com/external-secrets
+    name: kubernetes-external-secrets
+    sources:
+    - https://github.com/external-secrets/kubernetes-external-secrets
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/kubernetes-external-secrets-6.1.0.tgz
+    version: 6.1.0
+  metrics-server:
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 0.4.1
+    created: "2021-01-17T14:50:03.128529075-03:00"
+    description: Metrics Server is a cluster-wide aggregator of resource usage data.
+      Metrics Server collects metrics from the Summary API, exposed by Kubelet on
+      each node.
+    digest: a4bc1632514c1954d3fdb3ffe5ef01aa0a92f1726ec814861e49a61c448ca598
+    icon: https://bitnami.com/assets/stacks/metrics-server/img/metrics-server-stack-110x117.png
+    keywords:
+    - metrics-server
+    - cluster
+    - metrics
+    name: metrics-server
+    urls:
+    - https://edsonluisvieira.github.io/chartsHelm/metrics-server-5.3.3.tgz
+    version: 5.3.3
+generated: "2021-01-17T14:50:03.102310813-03:00"
